@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Javier Picado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Portafolio - Javier Picado Hernández</h1>
+<p class="subtitulo">Estudiante de Tecnologías de Información | Desarrollo Web | Bases de Datos</p>
+
+    <div class="contacto">
+    <span>📞 85850763</span>
+    <span>✉️ javierpicado72@gmail.com</span>
+    <span>🎓 Tecnologías de Información</span>
+</div>    
+
+    <hr>
+
+    <h2>Información adicional</h2>
+
+    <select onchange="mostrarInfo(this.value)">
+        <option value="">Seleccione una opción</option>
+        <option value="cualidades">Cualidades</option>
+        <option value="tecnicas">Habilidades Técnicas</option>
+        <option value="blandas">Habilidades Blandas</option>
+    </select>
+
+    <div id="info" class="info-box"></div>
+
+    <hr>
+
+    <h2>Proyectos</h2>
+
+    <div class="proyectos-grid">
+    <a class="card-proyecto" href="proyecto1.html">
+        <h3>Sistema Gestor de Factibilidad</h3>
+        <p>ASP.NET MVC, C#, SQL Server</p>
+    </a>
+
+    <a class="card-proyecto" href="proyecto2.html">
+        <h3>Sistema de Préstamos de Biblioteca</h3>
+        <p>C#, SQL Server</p>
+    </a>
+
+    <a class="card-proyecto" href="proyecto3.html">
+        <h3>Sistema de Riego Automatizado</h3>
+        <p>Python, CMD, Sockets</p>
+    </a>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
